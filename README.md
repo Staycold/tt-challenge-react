@@ -13,21 +13,21 @@
 *[Installation](#installation)
     
 *[Usage](#usage)
-    
-*[License](#license)
-    
-    
+
 *[Questions](#questions)
     
   ## Description
   Here I have created facsimiles of the wire-frames provided for the TrackTik front-end challenge
+
+
   ## Installation
   npm i and then npm start
+
+
   ## Usage
-  the deployed link
-  ## License
-  
-  (https://opensource.org/licenses/OFL-1.1)
+  https://staycold.github.io/tt-code-challenge-react/
+
+
   ## Contributing
   I hope you will consider me, I am eager to learn from experts and very determined.
   
