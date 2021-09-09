@@ -20,19 +20,15 @@ export default function List({ sites, setSites }) {
   return (
     <>
     <div className='listHeader row'>
-
     <div className='listHeaderTitle col-12'>
         <p>Sites</p>
     </div>
-
 </div>     
-
   <div className='underListHeader row'>
-      <div>
+    <div>
       <input className='listInput' placeholder='All Sites'></input>
       <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/24/000000/external-magnifying-glass-interface-kiranshastry-solid-kiranshastry.png"/>
-
-        </div>
+    </div>
   </div>
 
       <div className='siteObj'>

@@ -13,7 +13,7 @@
 	border-bottom: gray;
 	border-width: 4px;
 	position: sticky;
-	width: 100%;
+	width: 100vw;
 }
 
 .headerTitle {
