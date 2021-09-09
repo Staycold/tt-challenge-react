@@ -83,7 +83,7 @@ export default function Details({ details }) {
                 <img src="https://img.icons8.com/ios-glyphs/30/000000/email.png" />
                 </div>
                 <div className="detContactText col-10">
-                <p>{email}</p>
+                <p> <a href= {"mailto:" + email}> {email} </a> </p>
                 </div>
               </div>
 

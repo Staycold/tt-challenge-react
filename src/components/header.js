@@ -1,8 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
@@ -45,8 +42,6 @@ const Header = () => {
       </div>
 
       <div className="headerP col-2">
-        {/* <img src="https://img.icons8.com/metro/26/000000/p-lowercase.png"/> */}
-        {/* <img src="https://img.icons8.com/dotty/80/000000/circled-p.png"/> */}
         <img src="https://img.icons8.com/fluency-systems-regular/36/000000/p.png" />
       </div>
     </div>
