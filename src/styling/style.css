@@ -1,90 +1,170 @@
-.site {
-	border-bottom: 0.5px solid gray;
+
+
+/* ===NavBar=== */
+
+.navbar {
+	width: 100vw;
 }
 
 .header {
-	padding: 0;
+	background-color: rgba(0, 110, 255, 0.938);
+	max-height: 5rem;
+	border-bottom: gray;
+	border-width: 4px;
 }
 
-.mdl-chip__contact {
-	margin-right: 0;
+.headerTitle {
+	color: #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.infinite {
-	padding: 1em;
-	color: gray; 
+.headerIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.arrow {
-	padding-right: 2em;
-}
+/* === End of Navbar=== */
 
-.cell {
-	text-align: right;
-}
+/* ==== List ==== */
 
-.searchActive {
-	color: #2a77e4;
-	text-shadow: 3px 3px 6px #2a77e4;
-}
-
-.site-details {
-	border-bottom: 0.5px solid gray;
-	padding: 0;
-}
-
-.header-site {
-	margin: 0;
-	width: 100%;
-	background-color: #2a77e4;
-	color: black;
-}
-
-.mdl-chip__contact {
-	margin-right: 0;
-}
-
-.back-arrow {
-	color: white;
-	width: 2em;
-}
-
-.full-width {
-	width: auto;
-	/*height: 300px;*/
-}
-
-.siteDetails-line {
-	padding: 1em;
-}
-
-.main-img {
-    flex: none; /* keep aspect ratio */
-    width: auto;
-    height: 100%
-}
-
-.imgContainer {
-    display: flex;
-    justify-content: center;
-    height: 280px; /* or other desired height */
-    overflow: hidden;
+.siteObj {
+	padding: 0%;
+	height: 100%;
+	margin: 0%;
+	display: flex;
 }
 
 .listImg{
-    border-radius: 50%;
-	height: 66px;
-	width: 66px;
+	height: 70px;
+	width: 70px;
+	max-width: 70px;
+	max-height: 70px;
+}
+
+.cardImg {
+	display: flex;
+	align-items: center;
+	justify-content: start;
 }
 
 .siteList {
 	display: flex;
 	flex-direction: row;
+	margin: 0%;
+	padding: 0%;
 	width: 100%;
+	height: 100%;
 }
 
 .siteInfo {
 	display: flex;
 	flex-direction: column;
 	margin-right: 10px;
+	justify-content: center;
+	text-align: left;
+	height: 100%;
 }
+
+.siteLink a {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	height: 100%;
+	min-height:100%;
+}
+
+.cardText {
+	justify-content: center;
+	margin-bottom: 0px;
+	height: 100%;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.card-title {
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+	width: 100%;
+	margin-bottom: 1px;
+	margin-top: 0%;
+}
+
+
+/* === end of List === */
+
+/* === Details === */
+
+.detCard {
+	display: flex;
+	flex-direction: column;
+}
+
+.detailsLink a {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 100%;
+	min-height:100%;
+}
+
+.detailsSite {
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+	width: 100%;
+	margin-bottom: 1px;
+	margin-top: 0%;
+	background-color: rgba(0, 110, 255, 0.938);
+}
+
+.detailsImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+}
+
+#detImg {
+
+	max-height: 640px;
+	max-width: 480px;
+}
+
+#detSiteTitle {
+	color: #eee;
+}
+
+.detContact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	
+}
+
+.detContactImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.detContactText  {
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	flex-direction: column;
+	text-align: left;
+}
+/* === end of details === */

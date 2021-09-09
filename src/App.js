@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {useState, useEffect, useRef, useCallback } from 'react'
+import Header from './components/header';
 import List from './pages/list';
 import Details from './pages/details';
 import './styling/style.css'
@@ -25,7 +26,9 @@ export default function App() {
 
   return (
     <>
+      
       <Router>
+      <Header/>
         <Switch> 
           <Route exact path="/sites/:id" render={({match}) => (
               <Details details={sites.find(p => p.id === match.params.id)} />
