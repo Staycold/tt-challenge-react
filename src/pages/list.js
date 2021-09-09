@@ -18,7 +18,25 @@ export default function List({ sites, setSites }) {
   };
 
   return (
-      <div style={{ width: '100%', height: '100vh' }}>
+    <>
+    <div className='listHeader row'>
+
+    <div className='listHeaderTitle col-12'>
+        <p>Sites</p>
+    </div>
+
+</div>     
+
+  <div className='underListHeader row'>
+      <div>
+      <input className='listInput' placeholder='All Sites'></input>
+      <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/24/000000/external-magnifying-glass-interface-kiranshastry-solid-kiranshastry.png"/>
+
+        </div>
+  </div>
+
+      <div className='siteObj'>
+        
         <InfiniteLoading
           hasMoreItems={items.length < sites.length}
           itemHeight={100}
@@ -27,5 +45,6 @@ export default function List({ sites, setSites }) {
           {(sites.length > 0) ? items.map((item, index) => <SiteCell site={sites[item]} key={index}/>) : []}
         </InfiniteLoading>
     </div>
+    </>
   );
 }
