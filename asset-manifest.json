@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/github.io/tt-code-challenge-react/static/css/main.3a622287.chunk.css",
+    "main.js": "/github.io/tt-code-challenge-react/static/js/main.e6ef2f54.chunk.js",
+    "main.js.map": "/github.io/tt-code-challenge-react/static/js/main.e6ef2f54.chunk.js.map",
+    "runtime-main.js": "/github.io/tt-code-challenge-react/static/js/runtime-main.36002a51.js",
+    "runtime-main.js.map": "/github.io/tt-code-challenge-react/static/js/runtime-main.36002a51.js.map",
+    "static/js/2.f34efab6.chunk.js": "/github.io/tt-code-challenge-react/static/js/2.f34efab6.chunk.js",
+    "static/js/2.f34efab6.chunk.js.map": "/github.io/tt-code-challenge-react/static/js/2.f34efab6.chunk.js.map",
+    "index.html": "/github.io/tt-code-challenge-react/index.html",
+    "static/css/main.3a622287.chunk.css.map": "/github.io/tt-code-challenge-react/static/css/main.3a622287.chunk.css.map",
+    "static/js/2.f34efab6.chunk.js.LICENSE.txt": "/github.io/tt-code-challenge-react/static/js/2.f34efab6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36002a51.js",
+    "static/js/2.f34efab6.chunk.js",
+    "static/css/main.3a622287.chunk.css",
+    "static/js/main.e6ef2f54.chunk.js"
+  ]
+}
